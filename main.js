@@ -2725,7 +2725,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
   }
 
   contains_self_referential_keywords(user_input) {
-    const kw_regex = /\b(my|I|me|mine|our|ours|us|we)\b/gi;
+    const kw_regex = /\b(mi|Yo|mío|mio|nuestro|nuestros|nos|nosotros)\b/gi;
     const matches = user_input.match(kw_regex);
     if(matches) return true;
     return false;
